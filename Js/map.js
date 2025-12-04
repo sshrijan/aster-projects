@@ -33,14 +33,19 @@
 // console.log(filterVeg);
 // console.log(vegetables);
 
-const vegetables = ["carrot","brocolli","potato","spianch","tulip","mushroom"]
+// const vegetables = ["carrot","brocolli","potato","spianch","tulip","mushroom"]
 
-const mappedVegetables = vegetables.map((item, index) => {
-    return {
-        id : index + 1,
-        name : item
-    }
-})
+// const mappedVegetables = vegetables.map((item, index) => {
+//     return {
+//         id : index + 1,
+//         name : item
+//     }
+// })
+// console.log(mappedVegetables);
 
-const filteredVeg = mappedVegetables.filter((item) => item.id % 2 == 1)
-console.log(filteredVeg);
+// const filteredVeg = mappedVegetables.filter((item) => item.id % 2 == 1)
+// const spread = [...mappedVegetables]
+
+const arr = [1,2,3]
+const newArr = [0, ...arr, 4]
+console.log(newArr);
