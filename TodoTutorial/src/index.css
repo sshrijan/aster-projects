@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.checked {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.unchecked {
+  text-decoration: none;
+  color: black;
+}
+
+.input-btn{
+  display: flex;
+  justify-content: end;
+  gap: 5px;
+}
+
+
